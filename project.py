@@ -2,6 +2,7 @@ from flask import Flask, request, render_template, make_response
 app = Flask(__name__, static_url_path='/index', static_folder='')
 
 
+
 @app.route('/')
 @app.route('/index')
 def index():
